@@ -7,7 +7,7 @@ load_dotenv()  # ✅ Load from .env
 
 app = Flask(__name__)
 
-# ✅ Print for debug
+#dd ✅ Print for debug
 print("✅ DB Config:")
 print("Host:", os.environ.get('MYSQL_HOST'))
 print("User:", os.environ.get('MYSQL_USER'))
